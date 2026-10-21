@@ -1,10 +1,7 @@
 {
   "version": 2,
-  "outputDirectory": ".",
+  "outputDirectory": "public",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/index.js"
-    }
+    { "source": "/(.*)", "destination": "/api" }
   ]
 }
